@@ -15,6 +15,11 @@
 		97CE5134205390FA00CC021E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5132205390FA00CC021E /* LaunchScreen.storyboard */; };
 		97CE513F205390FA00CC021E /* ShootingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE513E205390FA00CC021E /* ShootingTests.swift */; };
 		97CE514A205390FB00CC021E /* ShootingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE5149205390FB00CC021E /* ShootingUITests.swift */; };
+		97CE515A2053D30900CC021E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE512B205390FA00CC021E /* ViewController.swift */; };
+		97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE5127205390FA00CC021E /* AppDelegate.swift */; };
+		97CE515E2053D30900CC021E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5129205390FA00CC021E /* art.scnassets */; };
+		97CE51602053D30900CC021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5130205390FA00CC021E /* Assets.xcassets */; };
+		97CE51612053D30900CC021E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE512D205390FA00CC021E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,8 @@
 		97CE5145205390FB00CC021E /* ShootingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CE5149205390FB00CC021E /* ShootingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingUITests.swift; sourceTree = "<group>"; };
 		97CE514B205390FB00CC021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CE51652053D30900CC021E /* Shooting-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CE51662053D30A00CC021E /* Shooting copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Shooting copy-Info.plist"; path = "/Users/yqhuang/Desktop/iOS Workshop/StepByStep/Shooting/Shooting copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97CE515C2053D30900CC021E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +97,7 @@
 				97CE513D205390FA00CC021E /* ShootingTests */,
 				97CE5148205390FB00CC021E /* ShootingUITests */,
 				97CE5125205390FA00CC021E /* Products */,
+				97CE51662053D30A00CC021E /* Shooting copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +107,7 @@
 				97CE5124205390FA00CC021E /* Shooting.app */,
 				97CE513A205390FA00CC021E /* ShootingTests.xctest */,
 				97CE5145205390FB00CC021E /* ShootingUITests.xctest */,
+				97CE51652053D30900CC021E /* Shooting-UAT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +200,23 @@
 			productReference = 97CE5145205390FB00CC021E /* ShootingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		97CE51582053D30900CC021E /* Shooting-UAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CE51622053D30900CC021E /* Build configuration list for PBXNativeTarget "Shooting-UAT" */;
+			buildPhases = (
+				97CE51592053D30900CC021E /* Sources */,
+				97CE515C2053D30900CC021E /* Frameworks */,
+				97CE515D2053D30900CC021E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shooting-UAT";
+			productName = Shooting;
+			productReference = 97CE51652053D30900CC021E /* Shooting-UAT.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +241,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 97CE5123205390FA00CC021E;
 					};
+					97CE51582053D30900CC021E = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 97CE511F205390FA00CC021E /* Build configuration list for PBXProject "Shooting" */;
@@ -226,6 +262,7 @@
 				97CE5123205390FA00CC021E /* Shooting */,
 				97CE5139205390FA00CC021E /* ShootingTests */,
 				97CE5144205390FB00CC021E /* ShootingUITests */,
+				97CE51582053D30900CC021E /* Shooting-UAT */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +293,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97CE515D2053D30900CC021E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE515E2053D30900CC021E /* art.scnassets in Resources */,
+				97CE51602053D30900CC021E /* Assets.xcassets in Resources */,
+				97CE51612053D30900CC021E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -281,6 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CE514A205390FB00CC021E /* ShootingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE51592053D30900CC021E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE515A2053D30900CC021E /* ViewController.swift in Sources */,
+				97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +578,36 @@
 			};
 			name = Release;
 		};
+		97CE51632053D30900CC021E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFNT57SBL3;
+				INFOPLIST_FILE = "Shooting copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MC.Shooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97CE51642053D30900CC021E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFNT57SBL3;
+				INFOPLIST_FILE = "Shooting copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MC.Shooting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,6 +643,15 @@
 			buildConfigurations = (
 				97CE5155205390FB00CC021E /* Debug */,
 				97CE5156205390FB00CC021E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CE51622053D30900CC021E /* Build configuration list for PBXNativeTarget "Shooting-UAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CE51632053D30900CC021E /* Debug */,
+				97CE51642053D30900CC021E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
