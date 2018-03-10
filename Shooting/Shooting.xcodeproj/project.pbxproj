@@ -55,7 +55,6 @@
 		97CE5149205390FB00CC021E /* ShootingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingUITests.swift; sourceTree = "<group>"; };
 		97CE514B205390FB00CC021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CE51652053D30900CC021E /* Shooting-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97CE51662053D30A00CC021E /* Shooting copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Shooting copy-Info.plist"; path = "/Users/yqhuang/Desktop/iOS Workshop/StepByStep/Shooting/Shooting copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +96,6 @@
 				97CE513D205390FA00CC021E /* ShootingTests */,
 				97CE5148205390FB00CC021E /* ShootingUITests */,
 				97CE5125205390FA00CC021E /* Products */,
-				97CE51662053D30A00CC021E /* Shooting copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
