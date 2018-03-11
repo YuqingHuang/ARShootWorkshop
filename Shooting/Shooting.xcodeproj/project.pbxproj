@@ -9,17 +9,16 @@
 /* Begin PBXBuildFile section */
 		97CE5128205390FA00CC021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE5127205390FA00CC021E /* AppDelegate.swift */; };
 		97CE512A205390FA00CC021E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5129205390FA00CC021E /* art.scnassets */; };
-		97CE512C205390FA00CC021E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE512B205390FA00CC021E /* ViewController.swift */; };
 		97CE512F205390FA00CC021E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE512D205390FA00CC021E /* Main.storyboard */; };
 		97CE5131205390FA00CC021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5130205390FA00CC021E /* Assets.xcassets */; };
 		97CE5134205390FA00CC021E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5132205390FA00CC021E /* LaunchScreen.storyboard */; };
 		97CE513F205390FA00CC021E /* ShootingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE513E205390FA00CC021E /* ShootingTests.swift */; };
 		97CE514A205390FB00CC021E /* ShootingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE5149205390FB00CC021E /* ShootingUITests.swift */; };
-		97CE515A2053D30900CC021E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE512B205390FA00CC021E /* ViewController.swift */; };
 		97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE5127205390FA00CC021E /* AppDelegate.swift */; };
 		97CE515E2053D30900CC021E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5129205390FA00CC021E /* art.scnassets */; };
 		97CE51602053D30900CC021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5130205390FA00CC021E /* Assets.xcassets */; };
 		97CE51612053D30900CC021E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE512D205390FA00CC021E /* Main.storyboard */; };
+		97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51692054CC4D00CC021E /* ShootingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		97CE5124205390FA00CC021E /* Shooting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shooting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CE5127205390FA00CC021E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97CE5129205390FA00CC021E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		97CE512B205390FA00CC021E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97CE512E205390FA00CC021E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97CE5130205390FA00CC021E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97CE5133205390FA00CC021E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +53,7 @@
 		97CE5149205390FB00CC021E /* ShootingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingUITests.swift; sourceTree = "<group>"; };
 		97CE514B205390FB00CC021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CE51652053D30900CC021E /* Shooting-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CE51692054CC4D00CC021E /* ShootingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +112,9 @@
 		97CE5126205390FA00CC021E /* Shooting */ = {
 			isa = PBXGroup;
 			children = (
+				97CE51692054CC4D00CC021E /* ShootingViewController.swift */,
 				97CE5127205390FA00CC021E /* AppDelegate.swift */,
 				97CE5129205390FA00CC021E /* art.scnassets */,
-				97CE512B205390FA00CC021E /* ViewController.swift */,
 				97CE512D205390FA00CC021E /* Main.storyboard */,
 				97CE5130205390FA00CC021E /* Assets.xcassets */,
 				97CE5132205390FA00CC021E /* LaunchScreen.storyboard */,
@@ -308,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97CE512C205390FA00CC021E /* ViewController.swift in Sources */,
+				97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */,
 				97CE5128205390FA00CC021E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97CE515A2053D30900CC021E /* ViewController.swift in Sources */,
 				97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,7 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VFNT57SBL3;
-				INFOPLIST_FILE = "Shooting copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Shooting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MC.Shooting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -597,7 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VFNT57SBL3;
-				INFOPLIST_FILE = "Shooting copy-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Shooting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MC.Shooting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
