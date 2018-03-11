@@ -21,6 +21,10 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fBn-Ja-Q7o">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="shl-J1-DLU" appends="YES" id="a7C-lU-Xok"/>
+                                </connections>
                             </arscnView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZA-Zw-P5y" userLabel="Score Label" propertyAccessControl="none">
                                 <rect key="frame" x="137" y="70" width="101" height="59"/>
@@ -34,11 +38,16 @@
                         <viewLayoutGuide key="safeArea" id="5HD-2h-V7W"/>
                     </view>
                     <connections>
-                        <outlet property="sceneView" destination="fBn-Ja-Q7o" id="QkE-Wj-X96"/>
-                        <outlet property="scoreLabel" destination="6ZA-Zw-P5y" id="eVg-HC-Rui"/>
+                        <outlet property="sceneView" destination="fBn-Ja-Q7o" id="vPv-bw-380"/>
+                        <outlet property="scoreLabel" destination="6ZA-Zw-P5y" id="2ix-5V-iwz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="shl-J1-DLU">
+                    <connections>
+                        <action selector="didTapScreen:" destination="BV1-FR-VrT" id="B27-uu-0XI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="114.69265367316342"/>
         </scene>
