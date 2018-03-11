@@ -29,6 +29,8 @@
 		97CE517A2054E18E00CC021E /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97CE51752054E18E00CC021E /* torpedo.mp3 */; };
 		97CE517B2054E18E00CC021E /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97CE51762054E18E00CC021E /* explosion.mp3 */; };
 		97CE517C2054E18E00CC021E /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97CE51762054E18E00CC021E /* explosion.mp3 */; };
+		97CE517E2054EDA600CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE517D2054EDA500CC021E /* LoginViewController.swift */; };
+		97CE517F2054EDA600CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE517D2054EDA500CC021E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,7 @@
 		97CE51742054E18E00CC021E /* collision.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = collision.mp3; path = "../../../../iOS-Workshop/ARViewer/Material/collision.mp3"; sourceTree = "<group>"; };
 		97CE51752054E18E00CC021E /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = torpedo.mp3; path = "../../../../iOS-Workshop/ARViewer/Material/torpedo.mp3"; sourceTree = "<group>"; };
 		97CE51762054E18E00CC021E /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = explosion.mp3; path = "../../../../iOS-Workshop/ARViewer/Material/explosion.mp3"; sourceTree = "<group>"; };
+		97CE517D2054EDA500CC021E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../iOS-Workshop/ARViewer/View/LoginViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,7 @@
 		97CE5126205390FA00CC021E /* Shooting */ = {
 			isa = PBXGroup;
 			children = (
+				97CE517D2054EDA500CC021E /* LoginViewController.swift */,
 				97CE51732054E17600CC021E /* Materials */,
 				97CE516D2054D95C00CC021E /* Bullet.swift */,
 				97CE516E2054D95C00CC021E /* Ship.swift */,
@@ -344,6 +348,7 @@
 				97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */,
 				97CE51712054D95C00CC021E /* Ship.swift in Sources */,
 				97CE5128205390FA00CC021E /* AppDelegate.swift in Sources */,
+				97CE517E2054EDA600CC021E /* LoginViewController.swift in Sources */,
 				97CE516F2054D95C00CC021E /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CE517F2054EDA600CC021E /* LoginViewController.swift in Sources */,
 				97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */,
 				97CE51722054D95C00CC021E /* Ship.swift in Sources */,
 				97CE51702054D95C00CC021E /* Bullet.swift in Sources */,
