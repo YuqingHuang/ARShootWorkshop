@@ -22,4 +22,8 @@ class LoginViewController: UIViewController {
         UserDefaults.standard.set(nameField.text, forKey: "username")
         performSegue(withIdentifier: "startShooting", sender: self)
     }
+    
+    func isValid(username: String) -> Bool {
+        return username.count > 0 && username.count < 10
+    }
 }
