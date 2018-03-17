@@ -26,6 +26,8 @@
 		97CE51602053D30900CC021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE5130205390FA00CC021E /* Assets.xcassets */; };
 		97CE51612053D30900CC021E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CE512D205390FA00CC021E /* Main.storyboard */; };
 		97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51692054CC4D00CC021E /* ShootingViewController.swift */; };
+		97CE51812055566100CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51802055566100CC021E /* LoginViewController.swift */; };
+		97CE51822055566100CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51802055566100CC021E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,7 @@
 		97CE514B205390FB00CC021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97CE51652053D30900CC021E /* Shooting-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CE51692054CC4D00CC021E /* ShootingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootingViewController.swift; sourceTree = "<group>"; };
+		97CE51802055566100CC021E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 			children = (
 				974D00D420562CEE00C101C4 /* Bullet.swift */,
 				974D00D520562CEE00C101C4 /* Ship.swift */,
+				97CE51802055566100CC021E /* LoginViewController.swift */,
 				97CE51732054E17600CC021E /* Materials */,
 				97CE51692054CC4D00CC021E /* ShootingViewController.swift */,
 				97CE5127205390FA00CC021E /* AppDelegate.swift */,
@@ -341,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CE51812055566100CC021E /* LoginViewController.swift in Sources */,
 				97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */,
 				974D00D720562CEE00C101C4 /* Ship.swift in Sources */,
 				97CE5128205390FA00CC021E /* AppDelegate.swift in Sources */,
@@ -369,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97CE515B2053D30900CC021E /* AppDelegate.swift in Sources */,
+				97CE51822055566100CC021E /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
