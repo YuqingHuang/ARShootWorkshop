@@ -20,5 +20,6 @@ class LoginViewController: UIViewController {
     @IBAction func saveName(_ sender: UIButton) {
         print("save name")
         UserDefaults.standard.set(nameField.text, forKey: "username")
+        performSegue(withIdentifier: "startShooting", sender: self)
     }
 }

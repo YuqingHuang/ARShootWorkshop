@@ -78,7 +78,6 @@
                                 <state key="normal" title="选这个帅气的名字"/>
                                 <connections>
                                     <action selector="saveName:" destination="ziN-XY-FL0" eventType="touchDown" id="Vl7-t3-V5y"/>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="UNe-TB-G3P"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-sS-fXY">
@@ -94,6 +93,7 @@
                     </view>
                     <connections>
                         <outlet property="nameField" destination="5rj-sS-fXY" id="qk2-Qv-MPc"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="startShooting" id="uLH-e7-NHf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Bp-ZW-f9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
