@@ -87,18 +87,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="用户名不合法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tfx-ZJ-xGW">
+                                <rect key="frame" x="262" y="211" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hna-bM-1kj"/>
                     </view>
                     <connections>
+                        <outlet property="nameErrorLabel" destination="Tfx-ZJ-xGW" id="JNd-Gf-NGa"/>
                         <outlet property="nameField" destination="5rj-sS-fXY" id="qk2-Qv-MPc"/>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="startShooting" id="uLH-e7-NHf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Bp-ZW-f9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1311" y="115"/>
+            <point key="canvasLocation" x="-1311.2" y="114.69265367316342"/>
         </scene>
     </scenes>
 </document>

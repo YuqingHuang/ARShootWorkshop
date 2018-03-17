@@ -10,6 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var nameErrorLabel: UILabel!
     @IBOutlet weak var nameField: UITextField!
 
     override func viewDidLoad() {
@@ -22,6 +23,8 @@ class LoginViewController: UIViewController {
             isValid(username: username) {
             UserDefaults.standard.set(nameField.text, forKey: "username")
             performSegue(withIdentifier: "startShooting", sender: self)
+        } else {
+            nameErrorLabel.isHidden = false
         }
     }
 }
