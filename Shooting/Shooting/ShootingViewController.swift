@@ -20,6 +20,10 @@ class ShootingViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsCon
         }
     }
     
+    @IBAction func userDidChooseBullet(segue: UIStoryboardSegue) {
+        print("user did choose bullet")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
