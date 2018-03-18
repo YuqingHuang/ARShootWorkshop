@@ -40,6 +40,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqh-hz-XRl">
+                                <rect key="frame" x="246" y="70" width="113" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Bullets"/>
+                                <connections>
+                                    <segue destination="thq-LG-A4R" kind="presentation" id="a3z-b0-7TU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5HD-2h-V7W"/>
@@ -58,6 +66,21 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-215.19999999999999" y="114.69265367316342"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tgG-MD-BKK">
+            <objects>
+                <viewController id="thq-LG-A4R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Us-vD-5n5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kPb-R5-xwB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lD-ql-sI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="115"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="29g-bn-Oku">
