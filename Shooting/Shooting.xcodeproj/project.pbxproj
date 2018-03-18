@@ -31,6 +31,7 @@
 		97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51692054CC4D00CC021E /* ShootingViewController.swift */; };
 		97CE51812055566100CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51802055566100CC021E /* LoginViewController.swift */; };
 		97CE51822055566100CC021E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51802055566100CC021E /* LoginViewController.swift */; };
+		BE746EF1205E9660004EE6AE /* BulletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE746EF0205E9660004EE6AE /* BulletsViewController.swift */; };
 		BEC76F3E205D02D30018231B /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC76F3D205D02D30018231B /* LoginTest.swift */; };
 		BEC76F3F205D03D20018231B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE51802055566100CC021E /* LoginViewController.swift */; };
 		DC535F0B59477DCD41791D59 /* Pods_ShootingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F479C9BA1A810726AFACAB9 /* Pods_ShootingUITests.framework */; };
@@ -85,6 +86,7 @@
 		97CE51652053D30900CC021E /* Shooting-UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shooting-UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97CE51692054CC4D00CC021E /* ShootingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootingViewController.swift; sourceTree = "<group>"; };
 		97CE51802055566100CC021E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BE746EF0205E9660004EE6AE /* BulletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletsViewController.swift; sourceTree = "<group>"; };
 		BEC76F3D205D02D30018231B /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		C97EB3F53E270615A94665BD /* Pods-Shooting-UAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting-UAT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting-UAT/Pods-Shooting-UAT.debug.xcconfig"; sourceTree = "<group>"; };
 		E370E82087F1A675E9D50B97 /* Pods-Shooting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shooting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shooting/Pods-Shooting.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				97CE5130205390FA00CC021E /* Assets.xcassets */,
 				97CE5132205390FA00CC021E /* LaunchScreen.storyboard */,
 				97CE5135205390FA00CC021E /* Info.plist */,
+				BE746EF0205E9660004EE6AE /* BulletsViewController.swift */,
 			);
 			path = Shooting;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE746EF1205E9660004EE6AE /* BulletsViewController.swift in Sources */,
 				97CE51812055566100CC021E /* LoginViewController.swift in Sources */,
 				97CE516A2054CC4D00CC021E /* ShootingViewController.swift in Sources */,
 				974D00D720562CEE00C101C4 /* Ship.swift in Sources */,
