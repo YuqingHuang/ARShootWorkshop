@@ -8,17 +8,17 @@
 
 import UIKit
 
+struct BulletDto {
+    let name: String
+    let power: Int
+}
+
 class BulletsViewController: UIViewController {
     
-    struct Bullet {
-        let name: String
-        let power: Int
-    }
-    
-    let bullets = [Bullet(name: "Bullet1", power: 1),
-                   Bullet(name: "Bullet2", power: 2),
-                   Bullet(name: "Bullet3", power: 3),
-                   Bullet(name: "Bullet4", power: 4)]
+    let bullets = [BulletDto(name: "Bullet1", power: 1),
+                   BulletDto(name: "Bullet2", power: 2),
+                   BulletDto(name: "Bullet3", power: 3),
+                   BulletDto(name: "Bullet4", power: 4)]
     
     @IBOutlet weak var tableView: UITableView!
     
