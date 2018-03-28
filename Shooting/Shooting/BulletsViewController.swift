@@ -25,6 +25,7 @@ class BulletsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.dataSource = self
+        self.tableView.delegate = self
     }
 }
 
@@ -42,5 +43,16 @@ extension BulletsViewController: UITableViewDataSource {
         cell.detailTextLabel?.text = "power: \(bullet.power)"
         
         return cell
+    }
+}
+
+extension BulletsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.visibleCells.forEach { (cell) in
+            cell.accessoryType = .none
+        }
+        guard let cell = tableView.cellForRow(at: indexPath) else {return}
+        cell.accessoryType = .checkmark
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
