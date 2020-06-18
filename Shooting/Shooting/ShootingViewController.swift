@@ -5,6 +5,7 @@ import AVFoundation
 
 class ShootingViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsContactDelegate {
     
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet var scoreLabel: UILabel!
     @IBOutlet var sceneView: ARSCNView!
     
@@ -17,6 +18,10 @@ class ShootingViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsCon
                 self.scoreLabel.text = String(self.userScore)
             }
         }
+    }
+    
+    @IBAction func userDidChooseBullet(segue: UIStoryboardSegue) {
+        print("user did choose bullet")
     }
     
     override func viewDidLoad() {
@@ -38,6 +43,7 @@ class ShootingViewController: UIViewController, ARSCNViewDelegate, SCNPhysicsCon
         self.addNewShip()
         
         self.userScore = 0
+        self.nameLabel.text = UserDefaults.standard.string(forKey: "username")
     }
     
     override func viewWillAppear(_ animated: Bool) {
